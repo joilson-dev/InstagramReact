@@ -1,3 +1,37 @@
+# Instagram React
+Este é um projeto de recriação do Instagram utilizando React, desenvolvido como parte de um exercício de aprendizado. O projeto original foi fornecido com HTML e CSS e foi transformado em uma aplicação React, seguindo os requisitos especificados.
+
+## 🚀 Como Iniciar o Projeto
+
+Para iniciar o projeto localmente, siga os passos abaixo:
+
+1.  **Clone o repositório**:
+
+    bash
+
+    Copiar código
+
+    `git clone https://github.com/joilson-dev/instagram-react.git`
+
+2.  **Instale as dependências**:
+
+    bash
+
+    Copiar código
+
+    `cd instagram-react npm install`
+
+3.  **Inicie a aplicação**:
+
+    bash
+
+    Copiar código
+
+    `npm start`
+
+
+A aplicação estará disponível em `http://localhost:3000`.
+
  Recursos Utilizados
 ----------------------
 
