@@ -1,7 +1,6 @@
 import Stories from './Stories';
+import Posts from './Posts';
 // import User from './User';
-// import Post from './Post';
-// import Posts from './Posts';
 // import Suggestion from './Suggestion';
 // import Suggestions from './Suggestions';
 // import SideBar from './SideBar';
@@ -11,6 +10,7 @@ export default function Body() {
         <>
             <div className="esquerda">
                 <Stories />
+                <Posts />
             </div>
         </>
     )
