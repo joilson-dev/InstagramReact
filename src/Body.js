@@ -1,4 +1,4 @@
-// import Stories from './Stories';
+import Stories from './Stories';
 // import User from './User';
 // import Post from './Post';
 // import Posts from './Posts';
@@ -9,7 +9,9 @@
 export default function Body() {
     return (
         <>
-
+            <div className="esquerda">
+                <Stories />
+            </div>
         </>
     )
 }
