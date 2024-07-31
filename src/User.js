@@ -14,12 +14,18 @@ export default function User() {
             setUserData({ ...userData, name: newName });
         }
     };
+    const handleImgChange = () => {
+        const newImgSrc = prompt('Digite o novo link da imagem de perfil:');
+        if (newImgSrc && newImgSrc.trim() !== '') {
+            setUserData({ ...userData, imgSrc: newImgSrc });
+        }
+    };
 
 
 
     return (
         <div className="usuario">
-            <img src={userData.imgSrc} alt="imagem de perfil" />
+            <img src={userData.imgSrc} alt="imagem de perfil " onClick={handleImgChange} />
             <div className="texto">
                 <span>
                     <strong>{userData.name}</strong>
