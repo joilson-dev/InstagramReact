@@ -5,6 +5,7 @@ export default function SideBar() {
     return (
         <>
             <User />
+            <Suggestions />
         </>
     )
 }
