@@ -2,11 +2,11 @@ import Post from './Post';
 
 const postsData = [
     {
-        usuario: { nome: 'meowed', img: '/assets/img/meowed.svg' },
-        imgPost: '/assets/img/gato-telefone.svg',
-        imgCurtida: '/assets/img/respondeai.svg',
-        curtidoPor: 'respondeai',
-        curtidas: '101.523'
+        usuario: { nome: 'smallcutecats', img: 'assets/img/smallcutecats.svg' },
+        imgPost: 'assets/img/gatos.jpeg',
+        imgCurtida: 'assets/img/razoesparaacreditar.svg',
+        curtidoPor: 'chibirdart',
+        curtidas: '199.159'
     },
     {
         usuario: { nome: 'barked', img: '/assets/img/barked.svg' },
@@ -14,6 +14,13 @@ const postsData = [
         imgCurtida: '/assets/img/adorable_animals.svg',
         curtidoPor: 'adorable_animals',
         curtidas: '99.159'
+    },
+    {
+        usuario: { nome: 'meowed', img: '/assets/img/meowed.svg' },
+        imgPost: '/assets/img/gato-telefone.svg',
+        imgCurtida: '/assets/img/respondeai.svg',
+        curtidoPor: 'respondeai',
+        curtidas: '101.523'
     }
 ];
 
